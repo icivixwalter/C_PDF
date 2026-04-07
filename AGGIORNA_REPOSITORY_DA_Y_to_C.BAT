@@ -29,7 +29,7 @@ echo Aggiorno Git...
 echo.
 
 :: Aggiunge tutti i pdf e anche questo file bat
-git add *.pdf 2>nul
+git add *.pdf *.bat 2>nul
 git add AGGIORNA_REPOSITORY_DA_Y_to_C.BAT 2>nul
 
 git commit -m "Aggiornamento automatico PDF da Y: - %date% %time:~0,8%" >nul 2>&1
